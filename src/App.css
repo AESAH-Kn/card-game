@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+  text-align: center;  
+  background-size: cover;
+  height: 130vh;
 }
 
+.App-logo-five {
+  text-align: center;
+  background-color: #222;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -11,7 +17,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: red;
 }
 
 .App-title {
@@ -25,4 +31,32 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.card {
+  display: inline-block;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  padding-top: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 5em;
+  margin-left: 1em;
+  user-select: none;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.activeCard{
+  color: blue;
+  background: skyblue;
+}
+
+.result{
+  position: relative;
+  font-size: 2em;
+  color: orangered;
+  text-transform: uppercase;
+  margin-top: 2em;
 }
